@@ -13,11 +13,11 @@
     </header>
     <main>
         <div class="container">
-            <div class="movieList">
+            <div id="movieList">
                 <div class="movieSearch">
                     <p>Title:</p>
                     <input type="text" id="titleSearch">
-                    <a href="#" onclick="getData()">Search</a>
+                    <a href="#" id="searchButton" onclick="getData()">Search</a>
                 </div>
                 <div class="pageNav">
                     <a href="#"> <-Prev </a>
@@ -28,12 +28,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="movieDetails">
-                <h3>Movie Title</h3>
-                <p>Movie Description - Lorem Ipsum blablablablabla
-                    blablablablablablablablablablablablablablabla blablablablabla
-                    blablablablablablablablablabla blablablablablablablablablabla
-                </p>
+            <div id="movieDetails">
+                <h3>Click on a movie result to view details about it!</h3>
             </div>
         </div>
     </main>
